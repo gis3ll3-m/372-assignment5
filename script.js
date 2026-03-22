@@ -24,6 +24,11 @@ function fetchRepos(user) {
         .then(data => {
             const repoBoxes = document.querySelectorAll(".repo");
 
+            //Clears previously stored repos
+            repoBoxes.forEach(box=>{
+                box.style.display="none";
+            });
+
             if (data.length == 0) {
                 alert("User has no repositories");
                 return;
