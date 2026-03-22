@@ -1,15 +1,36 @@
 body{
     font-family: Arial;
     padding: 20px;
+    background-color: whitesmoke;
 }
 
 #gallery{
     display:flex;
     flex-wrap: wrap;
     gap:12px;
+    justify-content: center;
 }
 
+
+
+h1, h2{
+    color:#2d2b4c;
+    text-align: center;
+    padding:20px;
+}
+
+
+.searchBar{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+
+
 .repo{
+    background-color: #d7d5f8;
     border:1px solid gray;
     padding: 12px;
     width: 230px;
@@ -19,3 +40,8 @@ body{
 .repo i{
     margin-right: 6px;
 }
+
+p{
+    color: #2d2b4c;
+}
+
