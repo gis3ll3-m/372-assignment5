@@ -1,0 +1,21 @@
+body{
+    font-family: Arial;
+    padding: 20px;
+}
+
+#gallery{
+    display:flex;
+    flex-wrap: wrap;
+    gap:12px;
+}
+
+.repo{
+    border:1px solid gray;
+    padding: 12px;
+    width: 230px;
+    border-radius: 10px;
+}
+
+.repo i{
+    margin-right: 6px;
+}
